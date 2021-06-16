@@ -1,0 +1,8 @@
+.recipeList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.recipeList > * {
+    margin: 20px;
+}
