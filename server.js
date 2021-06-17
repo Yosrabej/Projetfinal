@@ -5,8 +5,7 @@ const app = express();
 require("dotenv").config();
 
 //img upload
-var fs = require("fs");
-var path = require("path");
+// var fs = require("fs");
 
 connectDB();
 app.use(express.json());
